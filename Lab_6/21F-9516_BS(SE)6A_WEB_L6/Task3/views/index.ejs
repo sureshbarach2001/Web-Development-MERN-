@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate Fare</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <form action="/calculatefare" method="GET">
+            <h2>Calculate Fare</h2>
+            <div class="form-group">
+                <label for="passengers">Number of Passengers:</label>
+                <input type="number" id="passengers" name="passengers" required>
+            </div>
+            <div class="form-group">
+                <label for="fare">Per Person Fare (PKR):</label>
+                <input type="number" id="fare" name="fare" required>
+            </div>
+            <div class="form-group">
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city" placeholder="Enter City Name with Lower-Case" required>
+            </div>
+            <button type="submit">Calculate Fare</button>
+<br>
+           
+                <p>Total Fare: <%= totalFare %> PKR</p>
+           
+        </form>
+    </div>
+</body>
+</html>

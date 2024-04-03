@@ -1,0 +1,4 @@
+{
+    "port":"8080",
+    "dbURI":"mongodb+srv://f219516:f219516@newcluster.rpidtcf.mongodb.net/?retryWrites=true&w=majority&appName=NewCluster"
+}

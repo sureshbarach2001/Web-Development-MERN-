@@ -1,0 +1,50 @@
+.two {
+    width: 80%;
+    margin-left: 10%;
+    background-color: rgb(23, 193, 100);
+    height: 110px;
+    padding-top: 40px;
+    text-align: center;
+    border: 3px solid rgb(11, 110, 171);
+    border-radius: 20px;
+}
+
+label {
+    font-weight: bolder;
+    font-size: large;
+}
+
+.button {
+    width: 20%;
+    height: 50px;
+    font-size:large;
+    font-weight: bold;
+    text-align: center;
+    border: 3px solid rgb(68, 26, 168);
+    border-radius: 10px;
+    background-color: rgb(181, 247, 48);
+    color: rgb(82, 16, 16);
+}
+
+.button:hover {
+    background-color: rgb(92, 90, 7);
+    color: rgb(169, 221, 169);
+}
+
+input {
+    width: 20%;
+    text-align: center;
+    font-size: large;
+}
+
+#displaySection {
+    text-align: center;
+    width: 80%;
+    margin-left: 10%;
+    height: fit-content;
+    padding-top: 40px;
+    background-color: rgb(92, 223, 223);
+    border: 3px solid rgb(228, 88, 88);
+    border-radius: 190px;
+    margin-top: 50px;
+}

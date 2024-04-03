@@ -1,0 +1,50 @@
+.Nav{
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+background-color: rgb(135, 206, 235);   
+height: 60px;
+}
+.center{
+    flex: 0.5;
+    /* width: 100vh; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.Student
+{
+padding-bottom: 40px;
+ 
+}
+.Student button
+{
+  background-color: #4CAF50; 
+  border: none;
+  
+  padding: 10px 20px;
+  text-align: center;
+  color: #f0f0f0;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.data
+{
+  display: inline-block;
+  border-style:groove;
+  width: 30%;
+  border-radius: 2%;
+border-color: #61dafb;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

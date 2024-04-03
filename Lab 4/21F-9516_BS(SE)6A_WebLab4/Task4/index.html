@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="body">
+    <hr>
+    
+    <hr>
+    <div class="two">
+        <h1>Vote Counting With Age Limitation</h1>
+        <label for="num"> AGE -> </label>
+        <input type="number" id="num" name="age" placeholder="18-90" pattern="[0-9]{1}[0-9]{1}" required>
+        <label for="num" id="l1"hidden> Select Vote Option -> </label>
+        <select name="option" id="vote" hidden>
+            <option value="">Vote Option</option>
+            <option value="vote1">Vote One</option>
+            <option value="vote2">Vote Two</option>
+            <option value="vote3">Vote Three</option>
+        </select>
+        <br>
+        <br>
+        <br>
+    <button onclick="votemachine()" class="button" id="button">Cast Vote</button>
+    </div>
+<hr>
+<hr>
+<hr>
+<div id="result">
+    <h3>Vote Result</h3>
+    <h4>Vote One :<span id="v1">0</span></h4>
+    <h4>Vote Two :<span id="v2">0</span></h4>
+    <h4>Vote Three :<span id="v3">0</span></h4>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
